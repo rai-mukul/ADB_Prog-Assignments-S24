@@ -1,0 +1,685 @@
+<select
+  name="ddlCollege"
+  id="ddlCollege"
+  class="inputitem"
+  onchange="fillStream(ddlCollege);RemoveAllOptions('ddlELE1');RemoveAllOptions('ddlELE2');RemoveAllOptions('ddlELE3');RemoveAllOptions('ddl4thELE1');"
+  style="width: 300px"
+>
+  <option value="0">--SELECT--</option>
+  <option value="5694">
+    +2 CO-OPERATIVE UCHH VIDYALAYA, AHIYAPUR, VIJAIPUR, GOPALGANJ (43094)
+  </option>
+  <option value="5690">
+    +2 NARAYAN SARVODAY H/S,SADAUA , Barauli, GOPALGANJ (43084)
+  </option>
+  <option value="5689">
+    A.S.U.G.R.A.H. SAMARAK H/S SIRSA, GOPALGANJ (43079)
+  </option>
+  <option value="4026">B.B.N.COLLEGE,BATHUABAZAR,GOPALGANJ (43013)</option>
+  <option value="5661">BACHAN MISHRA H/S BAGAHI, GOPALGANJ (43046)</option>
+  <option value="5660">
+    BALDEV H/S GANESH STHAN, MANJHA, GOPALGANJ (43045)
+  </option>
+  <option value="5681">
+    CO-OPERATIVE H/S-CUM-INTER COLLEGE KOYLADEVA, GOPALGANJ (43066)
+  </option>
+  <option value="5654">
+    D. G. SR. SEC. +2 SCHOOL DUMARIYA (MANJHA) ,GOPALGANJ (43039)
+  </option>
+  <option value="4025">DHARAM DEO INTER COLLEGE,SHER,GOPALGANJ (43009)</option>
+  <option value="5684">
+    DHARIKSHAN PD. H/S +2 MADHOPUR, GOPALGANJ (43069)
+  </option>
+  <option value="5669">DHARMDEV +2 H/S SHER, GOPALGANJ (43054)</option>
+  <option value="5640">
+    DR. R.M.L.S. S. SCH., MOHAMMADPUR, TEKNAWAS, GOPALGANJ (43025)
+  </option>
+  <option value="5652">
+    DR. RAJENDRA PRASAD H/S HATHUA, GOPALGANJ (43037)
+  </option>
+  <option value="5633">
+    G.A. H/S CUM INTER COLLEGE, KATEYA, GOPALGANJ (43018)
+  </option>
+  <option value="4027">GANDHI INTER COLLEGE,GOPALGANJ (43004)</option>
+  <option value="5665">
+    GANDHISMARAK H/S &amp; INTER COLLEGE, BHORE, GOPALGANJ (43050)
+  </option>
+  <option value="5658">
+    GYANESHWARI SR. SEC. SCHOOL GAURA, GOPALGANJ (43043)
+  </option>
+  <option value="5670">H/S BARAULI, GOPALGANJ (43055)</option>
+  <option value="5676">H/S DEVAPUR, GOPALGANJ (43061)</option>
+  <option value="5678">H/S JAMUNAHA BAZAR, GOPALGANJ (43063)</option>
+  <option value="5679">H/S LARAULI, GOPALGANJ (43064)</option>
+  <option value="5663">H/S RAMCHANDRAPUR, GOPALGANJ (43048)</option>
+  <option value="5672">
+    H/S SAH INTER COLLEGE DHARMPARSA, GOPALGANJ (43057)
+  </option>
+  <option value="5671">H/S SANKHEN RAMDAS, GOPALGANJ (43056)</option>
+  <option value="5659">H/S UDKAGAON, GOPALGANJ (43044)</option>
+  <option value="5668">H/SCH. SHAHPUR, SIDHBALIA, GOPALGANJ (43053)</option>
+  <option value="5688">
+    H/S-CUM-INTER COLLEGE KUSAUNDHI, GOPALGANJ (43073)
+  </option>
+  <option value="5685">
+    HAJARILAL SR. SEC. SCH. BALIWAN SAGAR +2 GOPALGANJ (43070)
+  </option>
+  <option value="5662">HIGH SCHOOL HATHUAR, PIPRA +2, GOPALGANJ (43047)</option>
+  <option value="5648">HIGH SCHOOL SONHULA, GOPALGANJ (43033)</option>
+  <option value="8586">
+    Higher Secondary School Admapur, Gopalganj (43163)
+  </option>
+  <option value="8834">
+    Higher Secondary School Ajabi Nagar, Gopalganj (43192)
+  </option>
+  <option value="8839">Higher Secondary School Ameya, Gopalganj (43098)</option>
+  <option value="8848">
+    Higher Secondary School Bagahwan Mishir, Gopalganj (43107)
+  </option>
+  <option value="8598">
+    Higher Secondary School Bagheji, Gopalganj (43175)
+  </option>
+  <option value="8865">
+    Higher Secondary School Bairagi Tola, Gopalganj (43124)
+  </option>
+  <option value="8484">
+    Higher Secondary School Bairiya Durg, Gopalganj (43143)
+  </option>
+  <option value="8838">
+    Higher Secondary School Bairiya, Gopalganj (43097)
+  </option>
+  <option value="8860">
+    Higher Secondary School Bakhari, Gopalganj (43119)
+  </option>
+  <option value="8603">
+    Higher Secondary School Bakhraur, Gopalganj (43180)
+  </option>
+  <option value="8482">
+    Higher Secondary School Balesra, Gopalganj (43141)
+  </option>
+  <option value="8862">
+    Higher Secondary School BangalKhad, Gopalganj (43121)
+  </option>
+  <option value="8592">
+    Higher Secondary School Bangra, Gopalganj (43169)
+  </option>
+  <option value="8489">
+    Higher Secondary School Barari Jagdish, Gopalganj (43148)
+  </option>
+  <option value="8878">
+    Higher Secondary School Bari Ishar, Gopalganj (43137)
+  </option>
+  <option value="8873">
+    Higher Secondary School Barwan Kaparpura, Gopalganj (43132)
+  </option>
+  <option value="8597">
+    Higher Secondary School Batardeh, Gopalganj (43174)
+  </option>
+  <option value="8840">Higher Secondary School Belwa, Gopalganj (43099)</option>
+  <option value="8593">
+    Higher Secondary School Bhaisahi, Gopalganj (43170)
+  </option>
+  <option value="8847">
+    Higher Secondary School Bharpurwan, Gopalganj (43106)
+  </option>
+  <option value="8842">
+    Higher Secondary School Chaumukha, Gopalganj (43101)
+  </option>
+  <option value="8591">
+    Higher Secondary School Chhawahi Takki, Gopalganj (43168)
+  </option>
+  <option value="8612">
+    Higher Secondary School chiwtahan, Gopalganj (43189)
+  </option>
+  <option value="8588">
+    Higher Secondary School Dewapur Purdil, Gopalganj (43165)
+  </option>
+  <option value="8610">
+    Higher Secondary School Dharamwari, Gopalganj (43187)
+  </option>
+  <option value="8490">
+    Higher Secondary School Dhatiwna, Gopalganj (43149)
+  </option>
+  <option value="8858">
+    Higher Secondary School Dhondhwaliya, Gopalganj (43117)
+  </option>
+  <option value="8832">
+    Higher Secondary School Dighwa Dakshin, Gopalganj (43190)
+  </option>
+  <option value="8833">
+    Higher Secondary School Dighwa Uttar, Gopalganj (43191)
+  </option>
+  <option value="8864">
+    Higher Secondary School Durg Matihaniya, Gopalganj (43123)
+  </option>
+  <option value="8492">
+    Higher Secondary School Ekderwan, Gopalganj (43151)
+  </option>
+  <option value="8494">
+    Higher Secondary School Ekderwan, Gopalganj (43153)
+  </option>
+  <option value="8608">
+    Higher Secondary School Gamhari, Gopalganj (43185)
+  </option>
+  <option value="8611">
+    Higher Secondary School Hamidpur, Gopalganj (43188)
+  </option>
+  <option value="8879">
+    Higher Secondary School Hathua, Gopalganj (43138)
+  </option>
+  <option value="8491">
+    Higher Secondary School Inderwan Abdullah, Gopalganj (43150)
+  </option>
+  <option value="8496">
+    Higher Secondary School jadopur Shukla, Gopalganj (43155)
+  </option>
+  <option value="8613">
+    Higher Secondary School Jagdishpur, Gopalganj (43194)
+  </option>
+  <option value="8487">
+    Higher Secondary School Jagmalwan, Gopalganj (43146)
+  </option>
+  <option value="8849">
+    Higher Secondary School Jagtauli, Gopalganj (43108)
+  </option>
+  <option value="8859">
+    Higher Secondary School JalalPur, Gopalganj (43118)
+  </option>
+  <option value="8486">
+    Higher Secondary School Jhirwan, Gopalganj (43145)
+  </option>
+  <option value="8869">
+    Higher Secondary School Jigna Jagarnath, Gopalganj (43128)
+  </option>
+  <option value="8602">Higher Secondary School Kahla, Gopalganj (43179)</option>
+  <option value="8871">
+    Higher Secondary School Kandhgopi, Gopalganj (43130)
+  </option>
+  <option value="8866">
+    Higher Secondary School Karariya Urf Bahari, Gopalganj (43125)
+  </option>
+  <option value="8583">
+    Higher Secondary School Karnpura, Gopalganj (43160)
+  </option>
+  <option value="8605">
+    Higher Secondary School Kashi Tengrahi, Gopalganj (43182)
+  </option>
+  <option value="8497">
+    Higher Secondary School Katgharwan, Gopalganj (43156)
+  </option>
+  <option value="8835">
+    Higher Secondary School Khaira Azam, Gopalganj (43193)
+  </option>
+  <option value="8870">
+    Higher Secondary School Khairatiyan, Gopalganj (43129)
+  </option>
+  <option value="8853">
+    Higher Secondary School Khalgaon, Gopalganj (43112)
+  </option>
+  <option value="8841">
+    Higher Secondary School khiridih, Gopalganj (43100)
+  </option>
+  <option value="8493">
+    Higher Secondary School Khwajepur, Gopalganj (43152)
+  </option>
+  <option value="8584">Higher Secondary School Koini, Gopalganj (43161)</option>
+  <option value="8498">
+    Higher Secondary School Konhwan, Gopalganj (43157)
+  </option>
+  <option value="8863">
+    Higher Secondary School Kuchaykot, Gopalganj (43122)
+  </option>
+  <option value="8606">
+    Higher Secondary School Kushhar, Gopalganj (43183)
+  </option>
+  <option value="8876">
+    Higher Secondary School Linebazar, Gopalganj (43135)
+  </option>
+  <option value="8877">
+    Higher Secondary School Machhagar Lachhiram, Gopalganj (43136)
+  </option>
+  <option value="8881">
+    Higher Secondary School Mahaicha, Gopalganj (43140)
+  </option>
+  <option value="8594">
+    Higher Secondary School Mahodipur Pakaiya, Gopalganj (43171)
+  </option>
+  <option value="8852">
+    Higher Secondary School Mahuawan, Gopalganj (43111)
+  </option>
+  <option value="8846">
+    Higher Secondary School Majhwaliya, Gopalganj (43105)
+  </option>
+  <option value="8851">
+    Higher Secondary School Majhwaliya, Gopalganj (43110)
+  </option>
+  <option value="8585">
+    Higher Secondary School Manjha Purwi, Gopalganj (43162)
+  </option>
+  <option value="8867">
+    Higher Secondary School Manjhirwan Kala, Gopalganj (43126)
+  </option>
+  <option value="8868">
+    Higher Secondary School Matihani Nayan, Gopalganj (43127)
+  </option>
+  <option value="8872">
+    Higher Secondary School Mirja Pur (Baribhan), Gopalganj (43131)
+  </option>
+  <option value="8596">
+    Higher Secondary School Mogal Biraicha, Gopalganj (43173)
+  </option>
+  <option value="8595">
+    Higher Secondary School Mohammadpur Nilami, Gopalganj (43172)
+  </option>
+  <option value="8845">
+    Higher Secondary School Musehri, Gopalganj (43104)
+  </option>
+  <option value="8880">
+    Higher Secondary School Nawada Parsauni, Gopalganj (43139)
+  </option>
+  <option value="8589">
+    Higher Secondary School Nimuiyan, Gopalganj (43166)
+  </option>
+  <option value="8843">Higher Secondary School Pagra, Gopalganj (43102)</option>
+  <option value="8587">
+    Higher Secondary School Pratappur, Gopalganj (43164)
+  </option>
+  <option value="8590">
+    Higher Secondary School Puraina, Gopalganj (43167)
+  </option>
+  <option value="8609">
+    Higher Secondary School Pyarepur, Gopalganj (43186)
+  </option>
+  <option value="8850">Higher Secondary School Rakba, Gopalganj (43109)</option>
+  <option value="8499">
+    Higher Secondary School Rampur Tengrahi, Gopalganj (43158)
+  </option>
+  <option value="8600">
+    Higher Secondary School Rampur, Gopalganj (43177)
+  </option>
+  <option value="8599">
+    Higher Secondary School Salempur Pashchim, Gopalganj (43176)
+  </option>
+  <option value="8601">
+    Higher Secondary School Salempur Purwi, Gopalganj (43178)
+  </option>
+  <option value="8857">
+    Higher Secondary School Sangwadih, Gopalganj (43116)
+  </option>
+  <option value="8485">
+    Higher Secondary School Sankhe Khas, Gopalganj (43144)
+  </option>
+  <option value="8844">
+    Higher Secondary School Sarupayi, Gopalganj (43103)
+  </option>
+  <option value="8874">
+    Higher Secondary School Sawreji, Gopalganj (43133)
+  </option>
+  <option value="8854">
+    Higher Secondary School Sikatiyan, Gopalganj (43113)
+  </option>
+  <option value="8861">
+    Higher Secondary School Sirisiyan, Gopalganj (43120)
+  </option>
+  <option value="8875">
+    Higher Secondary School Sohagpur, Gopalganj (43134)
+  </option>
+  <option value="8604">
+    Higher Secondary School Supauli, Gopalganj (43181)
+  </option>
+  <option value="8495">
+    Higher Secondary School Tirbirwan, Gopalganj (43154)
+  </option>
+  <option value="8856">
+    Higher Secondary School Tiwari Matihaniya, Gopalganj (43115)
+  </option>
+  <option value="8483">
+    Higher Secondary School Trilokpur, Gopalganj (43142)
+  </option>
+  <option value="8855">
+    Higher Secondary School Uchkagaon, Gopalganj (43114)
+  </option>
+  <option value="8607">Higher Secondary School Usari, Gopalganj (43184)</option>
+  <option value="8582">
+    Higher Secondary School Vishunpur Purwi, Gopalganj (43159)
+  </option>
+  <option value="8488">
+    Higher Secondary School Vrindawan, Gopalganj (43147)
+  </option>
+  <option value="4022">I.G.S.N.S.COLLEGE,KUCHAIKOT,GOPALGANJ (43011)</option>
+  <option value="5666">IBRAHIM MEMORIAL H/S SASAMU, GOPALGANJ (43051)</option>
+  <option value="8837">
+    JAGARNATH BABU BALMIKI SINGH S S SCHOOL VRINDAVAN THAWE, GOPALGANJ (43096)
+  </option>
+  <option value="5686">
+    JAYRAM PRASAD TIWARI UTKRAMIT SR. SEC. SCH. +2 DAHIBHATTA, Gopalganj (43071)
+  </option>
+  <option value="5693">
+    K.N.SHARMA UCHH MADYAMIK VIDYALAYA, FAIZULLAHPUR, BAIKUNTHPUR, GOPALGANJ
+    (43092)
+  </option>
+  <option value="5646">M.D +2 H/S NECHUAJALALPUR, GOPALGANJ (43031)</option>
+  <option value="5642">MADHAV H/S MAJHAGARH, GOPALGANJ (43027)</option>
+  <option value="3769">
+    MALTI DEVI ARJUN SINGH +2 S S DALEYA GOPALGANJ (43085)
+  </option>
+  <option value="5650">
+    MANGAL SINGH SR. SEC. SCHOOL RATANPURA, GOPALGANJ (43035)
+  </option>
+  <option value="5687">MAYA CHHOTA +2 SCH. UCHKAGAON, GOPALGANJ (43072)</option>
+  <option value="5632">MUKHIRAM SR SEC SCHOOL, THAWE, Gopalganj (43017)</option>
+  <option value="3765">
+    NAGINA RAY UCCHMADHAYAMIK SCHOOL , SHER,GOPALGANJ (43080)
+  </option>
+  <option value="4020">NATIONAL COLLEGE BARAULI,GOPALGANJ (43006)</option>
+  <option value="4023">
+    P.P.G.COLLEGE,CHAUMUKHA,BIJAIPUR,GOPALGANJ (43016)
+  </option>
+  <option value="5655">PANCHAYAT H/S MISRABATRAHAN, GOPALGANJ (43040)</option>
+  <option value="11603">PANDIT DEVRAJ INTERMEDIATE COLLEGE (43282)</option>
+  <option value="3767">
+    PHOOLPATI DEVI SINGHLDEV SINGH INTER COLLEGE T.BANDH GOPALGANJ (43082)
+  </option>
+  <option value="3763">
+    PRAYAG SENIOR SECONDARY SCHOOL BARAI BAGAHAWAN,SISAI,BHORE,GOPALGANJ (43077)
+  </option>
+  <option value="4024">
+    PT.D.D.U.INTER COLLEGE,KHAJURIA, BARAULI, GOPALGANJ (43007)
+  </option>
+  <option value="5682">
+    RAJENDRA H/S BELHI KHAS, KATAIYA, GOPALGANJ (43067)
+  </option>
+  <option value="8836">
+    RAM KRIPAL SINGH S S SCHOOL, BIKRAMPUR, GOPALGANJ (43095)
+  </option>
+  <option value="3761">
+    RAMASHANKAR DEVI H/S BHAISAHI,MANJHA, GOPALGANJ (43074)
+  </option>
+  <option value="3768">
+    S. N. Tiwari Higher Secondary School, Mahuawan, Sasamusa, Gopalganj (43083)
+  </option>
+  <option value="5675">
+    S. P. H/S-CUM-INTER COLLEGE, HATHUA, GOPALGANJ (43060)
+  </option>
+  <option value="3766">S.A.R.D. +2 H/S , GOPALGANJ (43081)</option>
+  <option value="5649">
+    SAHYOGI H.S. CUM INTER COLLEGE, BATHUA BAZAR, GOPALGANJ (43034)
+  </option>
+  <option value="5680">
+    SAHYOGI H/S-CUM- INTER COLLEGE PRIJAYIPUR, GOPALGANJ (43065)
+  </option>
+  <option value="8765">
+    SENIOR SECOANDARY SCHOOL GOPALPUR PARSAUNI, GOPALGANJ (43264)
+  </option>
+  <option value="8774">
+    SENIOR SECONDARY SCHOO BASDILA, GOPALGANJ (43273)
+  </option>
+  <option value="8625">
+    SENIOR SECONDARY SCHOOL AMARPURA JAGIRAHA, GOPALGANJ (43206)
+  </option>
+  <option value="8767">
+    SENIOR SECONDARY SCHOOL BAIDWALI, GOPALGANJ (43266)
+  </option>
+  <option value="8638">SENIOR SECONDARY SCHOOL BALRA BARAULI (43219)</option>
+  <option value="8634">
+    SENIOR SECONDARY SCHOOL BALTHARI, GOPALGANJ (43215)
+  </option>
+  <option value="8624">
+    SENIOR SECONDARY SCHOOL BANAURA BANDHAULI, GOPALGANJ (43205)
+  </option>
+  <option value="8670">
+    SENIOR SECONDARY SCHOOL BANKATA JAGIRDARI BHORE, GOPALGANJ (43251)
+  </option>
+  <option value="8631">
+    SENIOR SECONDARY SCHOOL BARAIPATTI CHHAP, GOPALGANJ (43212)
+  </option>
+  <option value="8636">
+    SENIOR SECONDARY SCHOOL BARAIPATTI, GOPALGANJ (43217)
+  </option>
+  <option value="8632">
+    SENIOR SECONDARY SCHOOL BARNAIYA RAJARAM, GOPALGANJ (43213)
+  </option>
+  <option value="8651">
+    SENIOR SECONDARY SCHOOL BASANT CHHAPRA, GOPALGANJ (43232)
+  </option>
+  <option value="8658">
+    SENIOR SECONDARY SCHOOL BELSAND, BARAULI, GOPALGANJ (43239)
+  </option>
+  <option value="8652">
+    SENIOR SECONDARY SCHOOL BHOJ CHHAPAR, GOPALGANJ (43233)
+  </option>
+  <option value="8770">
+    SENIOR SECONDARY SCHOOL BHUPATIPUR, GOPALGANJ (43269)
+  </option>
+  <option value="8764">
+    SENIOR SECONDARY SCHOOL BITHUWAN BHORE, GOPALGANJ (43263)
+  </option>
+  <option value="8673">
+    SENIOR SECONDARY SCHOOL BRITBHAMI TOLA, KUCHAIKOT, GOPALGANJ (43254)
+  </option>
+  <option value="8647">
+    SENIOR SECONDARY SCHOOL BUCHEYA SIDHWALIYA, GOPALGANJ (43228)
+  </option>
+  <option value="8645">
+    SENIOR SECONDARY SCHOOL BUDHSI SIDHWALIYA, GOPALGANJ (43226)
+  </option>
+  <option value="8671">
+    SENIOR SECONDARY SCHOOL CHAINPUR, GOPALGANJ (43252)
+  </option>
+  <option value="8622">
+    SENIOR SECONDARY SCHOOL CHAMANPURA BAIKUNTHPUR, GOPALGANJ (43203)
+  </option>
+  <option value="8769">
+    SENIOR SECONDARY SCHOOL CHARAWAHA VIHUNPURA, GOPALGANJ (43268)
+  </option>
+  <option value="8633">
+    SENIOR SECONDARY SCHOOL CHHATARPATTI, GOPALGANJ (43214)
+  </option>
+  <option value="8614">
+    SENIOR SECONDARY SCHOOL DEVKULI, GOPALGANJ (43195)
+  </option>
+  <option value="8640">SENIOR SECONDARY SCHOOL DHARHARA MELA (43221)</option>
+  <option value="8616">
+    SENIOR SECONDARY SCHOOL DUMARIYA EAST, GOPALGANJ (43197)
+  </option>
+  <option value="8630">
+    SENIOR SECONDARY SCHOOL EKDAENGA BHAGWANPUR, GOPALGANJ (43211)
+  </option>
+  <option value="8623">
+    SENIOR SECONDARY SCHOOL GANDHUA KATALPUR, GOPALGANJ (43204)
+  </option>
+  <option value="8773">
+    SENIOR SECONDARY SCHOOL HARPUR, GOPALGANJ (43272)
+  </option>
+  <option value="8781">
+    SENIOR SECONDARY SCHOOL ISHWARPATI, GOPALGANJ (43280)
+  </option>
+  <option value="8681">
+    SENIOR SECONDARY SCHOOL JAIDPIR RIDRAPUR, BHORE, GOPALGANJ (43262)
+  </option>
+  <option value="8772">
+    SENIOR SECONDARY SCHOOL JALALPUR, SIDHWALIA, GOPALGANJ (43271)
+  </option>
+  <option value="8657">
+    SENIOR SECONDARY SCHOOL JHANJHWA, GOPALGANJ (43238)
+  </option>
+  <option value="8650">
+    SENIOR SECONDARY SCHOOL JIGNADUBEY, BHORE, GOPALGANJ (43231)
+  </option>
+  <option value="8780">
+    SENIOR SECONDARY SCHOOL KABILASWAN, GOPALGANJ (43279)
+  </option>
+  <option value="8656">
+    SENIOR SECONDARY SCHOOL KALYANPUR, GOPALGANJ (43237)
+  </option>
+  <option value="8674">
+    SENIOR SECONDARY SCHOOL KAPARPURA, GOPALGANJ (43255)
+  </option>
+  <option value="8627">
+    SENIOR SECONDARY SCHOOL KARARIYA, BHITBHERWAN, GOPALGANJ (43208)
+  </option>
+  <option value="8664">
+    SENIOR SECONDARY SCHOOL KHAIRATIYA RAMNAGAR, GOPALGANJ (43245)
+  </option>
+  <option value="8659">
+    SENIOR SECONDARY SCHOOL KHAJURIYA BALAK, GOPALGANJ (43240)
+  </option>
+  <option value="8676">
+    SENIOR SECONDARY SCHOOL KOLHUA MANJHA, GOPALGANJ (43257)
+  </option>
+  <option value="8644">
+    SENIOR SECONDARY SCHOOL KUSAHAN, BHOREY, GOPALGANJ (43225)
+  </option>
+  <option value="8626">
+    SENIOR SECONDARY SCHOOL KUWARIDIH DOMANPUR BHOREY, GOPALGANJ (43207)
+  </option>
+  <option value="8776">
+    SENIOR SECONDARY SCHOOL LACHHPUR, GOPALGANJ (43275)
+  </option>
+  <option value="8637">
+    SENIOR SECONDARY SCHOOL LACHHWAR, GOPALGANJ (43218)
+  </option>
+  <option value="8768">
+    SENIOR SECONDARY SCHOOL LAKRI BANBIR, GOPALGANJ (43267)
+  </option>
+  <option value="8665">
+    SENIOR SECONDARY SCHOOL LAMICHAUR BHORE, GOPALGANJ (43246)
+  </option>
+  <option value="8654">
+    SENIOR SECONDARY SCHOOL MADHU SAREYA, GOPALGANJ (43235)
+  </option>
+  <option value="8662">
+    SENIOR SECONDARY SCHOOL MAGHAA, GOPALGANJ (43243)
+  </option>
+  <option value="8615">
+    SENIOR SECONDARY SCHOOL MAHARANI BAIKUNTHPUR, GOPALGANJ (43196)
+  </option>
+  <option value="8648">
+    SENIOR SECONDARY SCHOOL MAHRADEUR BHORE, GOPALGANJ (43229)
+  </option>
+  <option value="8620">
+    SENIOR SECONDARY SCHOOL MAHUAWAN HINDI, KHAJOORI, GOPALGANJ (43201)
+  </option>
+  <option value="8649">
+    SENIOR SECONDARY SCHOOL MANIKPUR KANYA, GOPALGANJ (43230)
+  </option>
+  <option value="8666">
+    SENIOR SECONDARY SCHOOL MARANPUR, GOPALGANJ (43247)
+  </option>
+  <option value="8667">
+    SENIOR SECONDARY SCHOOL MARIPUR, GOPALGANJ (43248)
+  </option>
+  <option value="8669">SENIOR SECONDARY SCHOOL MARWA, GOPALGANJ (43250)</option>
+  <option value="8675">
+    SENIOR SECONDARY SCHOOL MASHAN THANA BALAK, GOPALGANJ (43256)
+  </option>
+  <option value="8635">SENIOR SECONDARY SCHOOL MATEYA KHASH (43216)</option>
+  <option value="8619">
+    SENIOR SECONDARY SCHOOL MATHAULI JAGDISHPUR, GOPALGANJ (43200)
+  </option>
+  <option value="8643">
+    SENIOR SECONDARY SCHOOL MUDA MAKSUDPUR, GOPALGANJ (43224)
+  </option>
+  <option value="8639">
+    SENIOR SECONDARY SCHOOL MUNJA BAKHARI, GOPALGANJ (43220)
+  </option>
+  <option value="8679">
+    SENIOR SECONDARY SCHOOL NARAYNPUR, GOPALGANJ (43260)
+  </option>
+  <option value="8668">SENIOR SECONDARY SCHOOL NEURI, GOPALGANJ (43249)</option>
+  <option value="8646">
+    SENIOR SECONDARY SCHOOL PAKRIDIH KATEYA, GOPALGANJ (43227)
+  </option>
+  <option value="8655">
+    SENIOR SECONDARY SCHOOL PIPARAHI, GOPALGANJ (43236)
+  </option>
+  <option value="8621">
+    SENIOR SECONDARY SCHOOL PURKHASH , GOPALGANJ (43202)
+  </option>
+  <option value="8775">
+    SENIOR SECONDARY SCHOOL RAJAPUR MAHANT, GOPALGANJ (43274)
+  </option>
+  <option value="8771">
+    SENIOR SECONDARY SCHOOL RAJAPUR PANCHDEVARI, GOPALGANJ (43270)
+  </option>
+  <option value="8653">
+    SENIOR SECONDARY SCHOOL RASAUTI, GOPALGANJ (43234)
+  </option>
+  <option value="8618">
+    SENIOR SECONDARY SCHOOL RUDRAPUR, KATEYA, GOPALGANJ (43199)
+  </option>
+  <option value="8672">SENIOR SECONDARY SCHOOL SANGRAMPUR GOPAL (43253)</option>
+  <option value="8779">
+    SENIOR SECONDARY SCHOOL SANTPUR, GOPALGANJ (43278)
+  </option>
+  <option value="8628">
+    SENIOR SECONDARY SCHOOL SATAI , GOPALGANJ (43209)
+  </option>
+  <option value="8680">
+    SENIOR SECONDARY SCHOOL SEMRA, KUCHAIKOTE, GOPALGANJ (43261)
+  </option>
+  <option value="8678">
+    SENIOR SECONDARY SCHOOL SEMRA, THAWE, GOPALGANJ (43259)
+  </option>
+  <option value="8660">
+    SENIOR SECONDARY SCHOOL SEMRAW HATHUA, GOPALGANJ (43241)
+  </option>
+  <option value="8677">
+    SENIOR SECONDARY SCHOOL SHEKHPARSA, GOPALGANJ (43258)
+  </option>
+  <option value="8617">
+    SENIOR SECONDARY SCHOOL SHIVRAJPUR BHOREY, GOPALGANJ (43198)
+  </option>
+  <option value="8629">
+    SENIOR SECONDARY SCHOOL SINHA TOLA BAGAHI, GOPALGANJ (43210)
+  </option>
+  <option value="8661">
+    SENIOR SECONDARY SCHOOL SISAI BHORE, GOPALGANJ (43242)
+  </option>
+  <option value="8642">
+    SENIOR SECONDARY SCHOOL SONBARSA, GOPALGANJ (43223)
+  </option>
+  <option value="8778">
+    SENIOR SECONDARY SCHOOL SUARHAN, HANKARPUR, GOPALGANJ (43277)
+  </option>
+  <option value="8641">
+    SENIOR SECONDARY SCHOOL TELIYABANDH MANJHA, GOPALGANJ (43222)
+  </option>
+  <option value="8663">
+    SENIOR SECONDARY SCHOOL VISHAMBHARPUR, GOPALGANJ (43244)
+  </option>
+  <option value="8766">
+    SENIOR SECONDARY SCHOOL, AMAHI BANKE, GOPALGANJ (43265)
+  </option>
+  <option value="5657">
+    SR. SEC. SCHOOL KALYANPUR, BHORE GOPALGANJ (43042)
+  </option>
+  <option value="3762">
+    SR. SEC. SCHOOL UDANT ROY K. BANGRA, GOPALGANJ (43076)
+  </option>
+  <option value="5664">
+    SRI BADRI NARAYAN SMARAK H/S KORAIYA BHORE, GOPALGANJ (43049)
+  </option>
+  <option value="5677">
+    SRI RAM RATAN SHAHI H/S BISHUNPUR, YADAVPUR, GOPALGANJ (43062)
+  </option>
+  <option value="5691">
+    SRI SHANKAR H/S CUM INTER COLLEGE CHAKIA HUSSEPUR GOPALGANJ (43090)
+  </option>
+  <option value="5639">
+    SRI Y. R. SR. SEC. SCHOOL, REVTIYA, GOPALGANJ (43024)
+  </option>
+  <option value="3764">
+    SRIKANT BABU BINDU SINGH SR SEC SCH KUCHAIKOT, GOPLAGANJ (43078)
+  </option>
+  <option value="5653">
+    Swami Prakashanand +2 Sr Sec. School, Raghua, Jamsar, Gopalganj (43038)
+  </option>
+  <option value="5656">
+    TAPESHWAR NATH SEN.SEC. SCHOOL, CHHITAUNA (43041)
+  </option>
+  <option value="11571">
+    UPGRADE HIGH SCHOOL PADARIYA KATEYA, HATHUA (43281)
+  </option>
+  <option value="5631">V.M.INTER COLLEGE,GOPALGANJ (43003)</option>
+</select>

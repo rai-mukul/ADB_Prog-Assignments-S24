@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Introduction</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+  <div class="container mx-auto p-8">
+    <h1 class="text-3xl font-bold mb-6">API Introduction</h1>
+    
+    <div class="border border-gray-200 rounded-lg p-6">
+      <h2 class="text-xl font-semibold mb-4">Routes Information</h2>
+      <p class="mb-4">Below are the routes available in the API:</p>
+      
+      <ul>
+        <li class="mb-2">
+            <code class="bg-gray-300 px-2 py-1 rounded">POST /</code> - API Documentation
+          </li>
+        <li class="mb-2">
+          <code class="bg-gray-300 px-2 py-1 rounded">POST /chars</code> - Create a new character
+        </li>
+        <li class="mb-2">
+          <code class="bg-gray-300 px-2 py-1 rounded">PATCH /chars/:name</code> - Update a character by name
+        </li>
+        <li class="mb-2">
+          <code class="bg-gray-300 px-2 py-1 rounded">DELETE /chars/:name</code> - Delete a character by name
+        </li>
+        <li class="mb-2">
+          <code class="bg-gray-300 px-2 py-1 rounded">GET /chars</code> - Get all characters
+        </li>
+        <li class="mb-2">
+          <code class="bg-gray-300 px-2 py-1 rounded">GET /chars/:name</code> - Get a character by name
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
